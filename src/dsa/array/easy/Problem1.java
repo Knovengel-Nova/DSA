@@ -24,3 +24,6 @@ public class Problem1 {
         System.out.println("Largest element : "+largest);
     }
 }
+/*  this is the best solution.
+    Time Complexity : O(n).
+*/
