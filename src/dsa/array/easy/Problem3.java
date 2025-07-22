@@ -37,9 +37,8 @@ public class Problem3 {
     public static void displayArray(int[] arr) {
         System.out.print("{ ");
         for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i]);
+            System.out.print(arr[i]+((i<arr.length-1)?", ":" }\n"));
         }
-        System.out.print(" }\n");
     }
 }
 
